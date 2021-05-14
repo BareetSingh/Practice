@@ -12,7 +12,7 @@ import com.app.model.LocationStats;
 import com.app.service.CoronaDataService;
 
 @RestController
-@CrossOrigin(origins="http://3.108.51.133:3000/")
+@CrossOrigin(origins="http://3.108.51.133:3000")
 public class DataController {
 	
 	@Autowired
